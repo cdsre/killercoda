@@ -7,11 +7,19 @@
       },
       "steps": [
         {
-          "title": "Playground for ChaosToolKit",
+          "title": "Setting Up ChaosToolKit",
           "text": "step1/text.md",
           "verify": "step1/verify.sh",
           "foreground": "step1/foreground.sh",
           "background": "step1/background.sh"
+        },
+        {
+          "title": "Explore a Potential Weakness",
+          "text": "step2/text.md"
+        },
+        {
+          "title": "Define the Steady State Hypothesis",
+          "text": "step3/text.md"
         }
       ],
 	    "finish": {
