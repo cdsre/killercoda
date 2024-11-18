@@ -13,4 +13,4 @@ through the [install](https://chaostoolkit.org/reference/usage/install/) section
 
 ```bash
 pip install -U chaostoolkit
-```
+```{{copy}}

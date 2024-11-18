@@ -16,7 +16,7 @@ and see how it responds.
 ## Declare an Experiment to Observe the Weakness
 
 At this stage, we can create an experiment that tells how the system behaves when a certificate expires. An experiement
-can be in the `json` or `yaml` format You can explore the expreriment at either `~/ctk-simple/experiment.json` or 
+can be in the `json`{{}} or `yaml`{{}} format You can explore the expreriment at either `~/ctk-simple/experiment.json` or 
 `~/ctk-simple/experiment.yaml`
 
 We will explore the experiment in more detail next.

@@ -1,5 +1,5 @@
 {
-    "title": "ChaosToolKit",
+    "title": "CTK Tutorial",
     "description": "A simple introduction to CTK",
     "details": {
       "intro": {
@@ -22,12 +22,19 @@
           "text": "step3/text.md"
         },
         {
-          "title": "Explore a Potential Weakness",
+          "title": "Sections of an Experiment",
           "text": "step4/text.md"
         },
         {
-          "title": "Define the Steady State Hypothesis",
+          "title": "Activities and Tolerances",
           "text": "step5/text.md"
+        },
+        {
+          "title": "The Services",
+          "text": "step7/text.md",
+          "verify": "step7/verify.sh",
+          "foreground": "step7/foreground.sh",
+          "background": "step7/background.sh"
         }
       ],
 	    "finish": {

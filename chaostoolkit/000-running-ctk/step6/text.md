@@ -1,22 +1,17 @@
-# Your First Experiment
+# Run the Experiment
 
-## Define the Steady State Hypothesis
-You can only learn if you know where you start from and what a good baseline for your application is.
+## Start the Experiment without the Application
 
-Here we assume two things:
+To run the experiment, simply execute the following command:
 
-the services are running
-we can call the sunset service to retrieve the sunset time for a given city
-During our experiment, we will vary the conditions of the system and expect the state to remain valid.
+```bash
+chaos run experiment.json
+```{{copy}}
 
-## Changing the Conditions
-In this tutorial, we are going to set an expired certificate and restart the services. We will then call our application
-and see how it responds.
+Because we ran this command before we even started our application, our steady-state hypothesis failed and bailed the 
+experiment immediately.
 
-## Declare an Experiment to Observe the Weakness
+Note that the rollbacks will always run. They are only bypassed when you send a SIGINT or SIGTERM signal to the chaos 
+process because the toolkit assumes you may want to review your system.
 
-At this stage, we can create an experiment that tells how the system behaves when a certificate expires. An experiement
-can be in the `json` or `yaml` format You can explore the expreriment at either `~/ctk-simple/experiment.json` or 
-`~/ctk-simple/experiment.yaml`
-
-We will explore the experiment in more detail next.
+Explore the journal log from the experiment at `~/ctk-simple/journal.json`
