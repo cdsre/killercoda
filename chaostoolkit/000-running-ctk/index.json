@@ -35,6 +35,13 @@
           "verify": "step7/verify.sh",
           "foreground": "step7/foreground.sh",
           "background": "step7/background.sh"
+        },
+        {
+          "title": "Run the Experiment",
+          "text": "step8/text.md",
+          "verify": "step8/verify.sh",
+          "foreground": "step8/foreground.sh",
+          "background": "step8/background.sh"
         }
       ],
 	    "finish": {
