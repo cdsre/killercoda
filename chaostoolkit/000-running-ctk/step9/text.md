@@ -11,7 +11,15 @@ You can generate a PDF (or HTML, markdown…) report from the journal if you ins
 [chaostoolkit-reporting](https://github.com/chaostoolkit/chaostoolkit-reporting) plugin and its dependencies first:
 
 ```bash
-apt install -y pandoc libcairo2-dev
+wget https://github.com/jgm/pandoc/releases/download/3.2.1/pandoc-3.2.1-1-amd64.deb
+dpkg -i pandoc-3.2.1-1-amd64.deb
+```{{copy}}
+
+```bash
+apt install -y libcairo2-dev
+```{{copy}}
+
+```bash
 pip install chaostoolkit-reporting
 ```{{copy}}
 
