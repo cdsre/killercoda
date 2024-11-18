@@ -5,6 +5,4 @@ By doing this in a controlled fashion, you may learn how to change the system ac
 
 This tutorial will quickly give you a tour of the basic elements of an experiment.
 
-You will find many more in-depth labs on [GitHub](https://github.com/chaostoolkit/walkthrough).
-
 You can follow this tutorial directly on the [chaostoolkit](https://chaostoolkit.org/reference/tutorial/) site

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
 cd ~/ctk-simple || exit
-echo journal.json chaostoolkit.log
+ls journal.json chaostoolkit.log

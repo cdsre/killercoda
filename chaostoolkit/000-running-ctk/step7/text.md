@@ -12,7 +12,7 @@ The sunset service performs a call to the astre service for the data and simply 
 services are chained together over HTTPS. We can test this using curl:
 
 ```bash
-curl -k https://localhost:8443/city/Paris
+curl -k https://localhost:8443/city/Paris; echo
 ```{{copy}}
 
 Check the service logs to see the GET and POST requests
