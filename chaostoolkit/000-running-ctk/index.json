@@ -3,7 +3,7 @@
     "description": "A simple introduction to CTK",
     "details": {
       "intro": {
-        "text": "intro.md",
+        "text": "intro.md"
       },
       "steps": [
         {
