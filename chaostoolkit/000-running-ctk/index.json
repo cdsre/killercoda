@@ -55,7 +55,7 @@
     }
   },
   "assets": {
-    "host01": [
+    "ubuntu": [
       {
         "file": "init.sh",
         "target": "/tmp",
