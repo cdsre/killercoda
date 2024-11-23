@@ -50,11 +50,7 @@
         "text": "step10/text.md"
       }
     ],
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "assets": {
+    "assets": {
     "host01": [
       {
         "file": "init.sh",
@@ -67,6 +63,10 @@
         "chmod": "+x"
       }
     ]
+  },
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
