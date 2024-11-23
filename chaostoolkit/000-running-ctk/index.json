@@ -1,59 +1,74 @@
 {
-    "title": "CTK Tutorial",
-    "description": "A simple introduction to CTK",
-    "details": {
-      "intro": {
-        "text": "intro.md"
-      },
-      "steps": [
-        {
-          "title": "Setting Up ChaosToolKit",
-          "text": "step1/text.md",
-          "verify": "step1/verify.sh",
-          "background": "step1/background.sh"
-        },
-        {
-          "title": "Explore a Potential Weakness",
-          "text": "step2/text.md"
-        },
-        {
-          "title": "Define the Steady State Hypothesis",
-          "text": "step3/text.md"
-        },
-        {
-          "title": "Sections of an Experiment",
-          "text": "step4/text.md"
-        },
-        {
-          "title": "Activities and Tolerances",
-          "text": "step5/text.md"
-        },
-        {
-          "title": "The Services",
-          "text": "step7/text.md",
-          "verify": "step7/verify.sh",
-          "background": "step7/background.sh"
-        },
-        {
-          "title": "Run the Experiment",
-          "text": "step8/text.md",
-          "verify": "step8/verify.sh",
-          "background": "step8/background.sh"
-        },
-        {
-          "title": "Report on your Findings",
-          "text": "step9/text.md"
-        },
-        {
-          "title": "Leranings and Responses",
-          "text": "step10/text.md"
-        }
-      ],
-	    "finish": {
-        "text": "finish.md"
-      }
+  "title": "CTK Tutorial",
+  "description": "A simple introduction to CTK",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "init/background.sh",
+      "foreground": "init/foreground.sh"
     },
-    "backend": {
-      "imageid": "ubuntu"
+    "steps": [
+      {
+        "title": "Setting Up ChaosToolKit",
+        "text": "step1/text.md",
+        "verify": "step1/verify.sh"
+      },
+      {
+        "title": "Explore a Potential Weakness",
+        "text": "step2/text.md"
+      },
+      {
+        "title": "Define the Steady State Hypothesis",
+        "text": "step3/text.md"
+      },
+      {
+        "title": "Sections of an Experiment",
+        "text": "step4/text.md"
+      },
+      {
+        "title": "Activities and Tolerances",
+        "text": "step5/text.md"
+      },
+      {
+        "title": "The Services",
+        "text": "step7/text.md",
+        "verify": "step7/verify.sh",
+        "background": "step7/background.sh"
+      },
+      {
+        "title": "Run the Experiment",
+        "text": "step8/text.md",
+        "verify": "step8/verify.sh",
+        "background": "step8/background.sh"
+      },
+      {
+        "title": "Report on your Findings",
+        "text": "step9/text.md"
+      },
+      {
+        "title": "Leranings and Responses",
+        "text": "step10/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
     }
+  },
+  "assets": {
+    "host01": [
+      {
+        "file": "init.sh",
+        "target": "/ks",
+        "chmod": "+x"
+      },
+      {
+        "file": "wait-init.sh",
+        "target": "/ks",
+        "chmod": "+x"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
   }
+}
