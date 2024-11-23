@@ -58,12 +58,12 @@
     "host01": [
       {
         "file": "init.sh",
-        "target": "/ks",
+        "target": "/tmp",
         "chmod": "+x"
       },
       {
         "file": "wait-init.sh",
-        "target": "/ks",
+        "target": "/tmp",
         "chmod": "+x"
       }
     ]

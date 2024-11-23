@@ -13,4 +13,4 @@ cd ~/ctk-simple || exit
 pip install -U -r requirements.txt
 
 # mark init finished
-touch /ks/.init-step1-finished
+touch /tmp/.init-finished
